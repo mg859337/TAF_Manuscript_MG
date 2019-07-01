@@ -57,4 +57,4 @@ write.csv(objectImpulseDE2$dfImpulseDE2Results,"casemaleonly.csv")
 # It's a pain to redo all this, so save the Rdata
 
 Males=objectImpulseDE2
-save(Females,file="malecaseonly.RData")
+save(Males,file="malecaseonly.RData")
