@@ -54,7 +54,7 @@ objectImpulseDE2 <- runImpulseDE2(
 write.csv(row.names(na.omit(objectImpulseDE2$dfImpulseDE2Results[objectImpulseDE2$dfImpulseDE2Results$padj<.05,])),"casemaleonly_sigs.csv")
 write.csv(objectImpulseDE2$dfImpulseDE2Results,"casemaleonly.csv")
 
-# It's a pain to redo all this, so save the Rdata
+# It takes a long time to complete this, so save the Rdata for faster access
 
 Males=objectImpulseDE2
 save(Males,file="malecaseonly.RData")
