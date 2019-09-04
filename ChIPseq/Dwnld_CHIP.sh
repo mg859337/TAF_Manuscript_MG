@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# The following specifies computing cluster parameters
+
 # Request resources: 
 #SBATCH --time=48:00:00 
 #SBATCH --cpus-per-task=8 
@@ -20,6 +22,3 @@ for element in "${array[@]}"; do
 	echo I see "${element}"
     fastq-dump --gzip ${element}
 done
-
-
-
