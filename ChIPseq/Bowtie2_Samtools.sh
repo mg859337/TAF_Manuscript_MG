@@ -14,7 +14,6 @@
 #SBATCH -o outputbowtie2.out
 #SBATCH -e errorbowtie2.err
 
-#Load bowtie2
 module load bowtie2
 module load samtools
 module load bedtools
