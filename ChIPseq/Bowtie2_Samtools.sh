@@ -14,8 +14,6 @@
 #SBATCH -o outputbowtie2.out
 #SBATCH -e errorbowtie2.err
 
-gzip FF_FLAG_1_SRR7352918.fastq
-
 #Load bowtie2
 module load bowtie2
 module load samtools
