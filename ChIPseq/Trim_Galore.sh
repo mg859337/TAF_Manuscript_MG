@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# The following specifies computing cluster parameters
+
 # Request Resources
 #SBATCH --time=48:00:00
 #SBATCH --cpus-per-task=8
