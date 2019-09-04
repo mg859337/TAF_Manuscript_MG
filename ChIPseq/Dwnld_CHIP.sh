@@ -16,9 +16,11 @@
 
 module load sratoolkit
 
+# The following list is all the WT embryonic samples from Kojima et al. NCBI GEO: GSE115928
+
 array=("SRR7352911" "SRR7352912" "SRR7352913" "SRR7352914" "SRR7352915" "SRR7352916" "SRR7352917" "SRR7352918" "SRR7352919" "SRR7352920" "SRR7352921" "SRR7352922")
 
 for element in "${array[@]}"; do
 	echo I see "${element}"
-    fastq-dump --gzip ${element}
+	fastq-dump --gzip ${element}
 done
