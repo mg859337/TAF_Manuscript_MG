@@ -11,8 +11,8 @@
 #SBATCH -J Merge_Kojima
 
 #Specify Output and Input Files
-#SBATCH -o outputbowtie2.out
-#SBATCH -e errorbowtie2.err
+#SBATCH -o outputmerge.out
+#SBATCH -e errormerge.err
 
 module load samtools
 
