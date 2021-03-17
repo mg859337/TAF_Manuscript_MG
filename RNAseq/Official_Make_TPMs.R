@@ -23,7 +23,7 @@ while(j<17){
   refgen <- as.data.frame(gsub(".* ","",temp3[,3]))
   cov <- as.data.frame(gsub(".* ","",temp3[,4]))
   fpkm <- as.data.frame(gsub(".* ","",temp3[,5]))
-  tpm <- as.data.frame(gsub(".* ","",temp3[,5]))
+  tpm <- as.data.frame(gsub(".* ","",temp3[,6]))
   
   temp4 <- cbind(geneid, transid, refgen, cov, fpkm, tpm)
   
